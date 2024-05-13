@@ -1,0 +1,15 @@
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\bin\Debug\net8.0\TP3_Klawir_Cywiner.exe
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\bin\Debug\net8.0\TP3_Klawir_Cywiner.deps.json
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\bin\Debug\net8.0\TP3_Klawir_Cywiner.runtimeconfig.json
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\bin\Debug\net8.0\TP3_Klawir_Cywiner.dll
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\bin\Debug\net8.0\TP3_Klawir_Cywiner.pdb
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.AssemblyInfoInputs.cache
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.AssemblyInfo.cs
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.csproj.CoreCompileInputs.cache
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.sourcelink.json
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.dll
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\refint\TP3_Klawir_Cywiner.dll
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.pdb
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\TP3_Klawir_Cywiner.genruntimeconfig.cache
+C:\Users\carok\Desktop\Tomi\TP3-Infopalooza-1\obj\Debug\net8.0\ref\TP3_Klawir_Cywiner.dll

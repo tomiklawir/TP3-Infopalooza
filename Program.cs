@@ -1,5 +1,5 @@
 ﻿const int NUEVA_INSCRIPCION = 1, OBTENER_ESTADISTICAS = 2, BUSCAR_CLIENTE = 3, CAMBIAR_ENTRADA = 4, SALIR = 5, DIA_UNO = 1, DIA_DOS = 2, DIA_TRES = 3, DIA_CUATRO = 4;
-int opcion, dni, tipoEntrada=0, cantidad, idCliente = 1, recaudacionTotal = 0;
+int opcion, dni, tipoEntrada=0, cantidad, idCliente = 1;
 string nombre, apellido;
 DateTime fechaInscripcion = new DateTime();
 Cliente cliente;
@@ -9,7 +9,7 @@ int[] precios = {45000, 60000, 30000, 100000};
 
 do{
     opcion = IngresarNumero("Ingrese un numero: NUEVA INSCRIPCION = 1, OBTENER ESTADISTICAS = 2, BUSCAR CLIENTE = 3, CAMBIAR ENTRADA = 4, SALIR = 5");
-}while(opcion < 1 && opcion > 5);
+}while(opcion < 1 || opcion > 5);
 
 while(opcion != SALIR)
 {   switch(opcion)
@@ -28,6 +28,8 @@ while(opcion != SALIR)
         break;
 
         case OBTENER_ESTADISTICAS:
+        List <string> estadisticas = new List<string>();
+        estadisticas = Ticketera.EstadisticasTicketera();
 
         break;
 
@@ -39,16 +41,23 @@ while(opcion != SALIR)
             Console.WriteLine("Nombre: " + buscado.Nombre);
             Console.WriteLine("Fecha inscripcion: " + buscado.FechaInscripcion);
             Console.WriteLine("Tipo entrada: " + buscado.TipoEntrada);
-            Console.WriteLine("Cantidad: " + buscado.Cantidad);
-            
+            Console.WriteLine("Cantidad: " + buscado.Cantidad);   
         break;
 
         case CAMBIAR_ENTRADA: 
+        int entradaNueva;
+        int IDViejo = IngresarNumero("Ingrese el ID a buscar");
+        Cliente cambio = Ticketera.BuscarCliente(IDViejo);
+        do{
+            entradaNueva = IngresarNumero("Ingrese el tipo de entrada nueva");
+        }while(entradaNueva < DIA_UNO || entradaNueva > DIA_CUATRO);
+        int cantidadNueva = IngresarNumero("Ingrse la cantidad de entradas");
+        Ticketera.CambiarEntrada(IDViejo, entradaNueva, cantidadNueva);
         break;
     }
     do{
     opcion = IngresarNumero("Ingrese un numero: NUEVA INSCRIPCION = 1, OBTENER ESTADISTICAS = 2, BUSCAR CLIENTE = 3, CAMBIAR ENTRADA = 4, SALIR = 5");
-    }while(opcion < NUEVA_INSCRIPCION && opcion > SALIR);
+    }while(opcion < NUEVA_INSCRIPCION || opcion > SALIR);
 }
 
 
