@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP3_Klawir_Cywiner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+464078e17953513397dfcb013a2aca6641189f71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b98178b0d546afb1c842190bdb291dd4b06d9aeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP3_Klawir_Cywiner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP3_Klawir_Cywiner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
